@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PhotoHome</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- TOPBAR -->
+<div class="topbar">
+    <div class="brand">PhotoHome</div>
+
+    <div class="menu">
+        <a href="#">Home</a>
+        <a href="#footer">About</a>
+        <a href="#" onclick="openContact()">Contact</a>
+
+        <div class="cart-btn" onclick="goCart()">
+            🛒 Cart <span id="cartCount">0</span>
+        </div>
+    </div>
+</div>
+
+<!-- HERO -->
+<div class="hero">
+    <h1>Turn Your Memories Into Products</h1>
+    <p>Frames, mugs, cushions & more customized for you</p>
+</div>
+
+<!-- PRODUCTS -->
+<div class="container">
+    <div id="productGrid" class="grid"></div>
+</div>
+
+<!-- FOOTER -->
+<div class="footer" id="footer">
+
+    <div class="footer-grid">
+
+        <!-- ABOUT -->
+        <div class="footer-col">
+            <h2>PhotoHome</h2>
+            <p>
+                PhotoHome is a premium custom printing brand where your memories
+                are transformed into beautiful products like frames, mugs,
+                cushions, shirts, and more. We focus on quality, creativity,
+                and customer satisfaction.
+            </p>
+        </div>
+
+        <!-- QUICK LINKS -->
+        <div class="footer-col">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a onclick="scrollFooter()">About Us</a></li>
+                <li><a onclick="openContact()">Contact</a></li>
+                <li><a href="#">Shop</a></li>
+            </ul>
+        </div>
+
+        <!-- PRODUCTS -->
+        <div class="footer-col">
+            <h3>Our Products</h3>
+            <ul>
+                <li>Photo Frames</li>
+                <li>Custom Mugs</li>
+                <li>Cushions</li>
+                <li>Shirts</li>
+                <li>Albums</li>
+            </ul>
+        </div>
+
+        <!-- CONTACT -->
+        <div class="footer-col">
+            <h3>Contact Us</h3>
+            <p>📞 03338181082</p>
+            <p>📧 photohome92@gmail.com</p>
+            <p>📍 Pakistan</p>
+        </div>
+
+    </div>
+
+    <!-- BOTTOM -->
+    <div class="footer-bottom">
+        <p>© 2026 PhotoHome | All Rights Reserved</p>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
